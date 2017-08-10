@@ -1,0 +1,9 @@
+body {
+  background: #ddd;
+}
+#container {
+  width: 1200px;
+  height: 1000px;
+  margin: 0 auto;
+  background: white;
+}
