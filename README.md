@@ -1,21 +1,16 @@
-# resume_temp
+# Resume-Template
 
-> resume_temp
+该分支使用vue框架 并使用vue-cli脚手架
 
-## Build Setup
+### 前提: 
+1. 安装node 版本6以上
+2. 安装cnpm npm install cnpm -g  原因是使用国内资源
 
-``` bash
-# install dependencies
-npm install
+####  使用说明
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+1. git clone http.........
+2. cd 到项目目录
+3. git status 查看当前分支
+4. git checkout vue 切换到vue分支
+5. cnpm install 项目初始化
+6. npm run dev 启动项目
