@@ -6,4 +6,31 @@ body {
   height: 1000px;
   margin: 0 auto;
   background: white;
+  overflow: hidden;
+}
+#container .head {
+  height: 300px;
+  width: 110%;
+  background: #5694c3;
+  transform-origin: left top;
+  transform: rotate(5deg) translateY(-110px);
+}
+#container .head .transform {
+  display: flex;
+  transform-origin: left top;
+  transform: translateY(135px) rotate(-5deg);
+}
+#container .head .head-left {
+  width: 680px;
+  height: 150px;
+  background: rgba(0, 0, 0, 0.3);
+}
+#container .head .line {
+  border: 2px solid #ddd;
+}
+#container .head .head-right {
+  display: flex;
+  width: 500px;
+  height: 200px;
+  background: rgba(0, 0, 0, 0.3);
 }
