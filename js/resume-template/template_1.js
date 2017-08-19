@@ -6,4 +6,6 @@ canvas_foot.lineTo(1200,200);
 canvas_foot.lineTo(0,200);
 canvas_foot.closePath();
 canvas_foot.fillStyle="#5694c3";
+canvas_foot.shadowBlur="10";
+canvas_foot.shadowColor="#5694c3";
 canvas_foot.fill();

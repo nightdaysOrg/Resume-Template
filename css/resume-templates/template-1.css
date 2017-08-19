@@ -14,6 +14,7 @@ body {
   overflow: hidden;
   transform-origin: left top;
   transform: rotate(5deg) translateY(-110px);
+  box-shadow: 0px 0px 15px #5694c3;
 }
 #container .head .transform {
   display: flex;
@@ -71,6 +72,7 @@ body {
   background: #5694c3;
   padding-left: 30px;
   margin-top: 20px;
+  box-shadow: 0px 0px 10px #5694c3;
 }
 #container #section2 {
   float: right;
