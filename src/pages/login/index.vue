@@ -1,53 +1,7 @@
+
 <template>
     <div>
-        <div class="bg-img"></div>
-        <header class="container-fulid">
-            <div class="container">
-                <nav class="navbar navbar-default">
-                    <div class="container-fulid">
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="#">简历模板小项目</a>
-                        </div>
-    
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <!--<ul class="nav navbar-nav">
-                                    <li><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                                    <li><a href="#">Link</a></li>
-                                </ul> -->
-    
-                            <ul class="nav navbar-nav navbar-right">
-                                <li>
-                                    <a href="#">查看模板</a>
-                                </li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">登录/注册
-                                        <span class="caret"></span>
-                                    </a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li>
-                                            <a href="#" data-toggle="modal" data-target="#login" class="btn btn-success">登录</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" data-toggle="modal" data-target="#sign-in" class="btn btn-warning">注册</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- /.navbar-collapse -->
-                    </div>
-                    <!-- /.container-fluid -->
-                </nav>
-            </div>
-        </header>
+        <Header></Header>  
         <div class="container" id="main">
             <div class="row">
                 <div class="col-md-5 col-md-offset-1 visible-lg-block visible-md-block " id="notice-left">
@@ -72,7 +26,7 @@
                 </div>
             </div>
         </div>
-    
+
         <!-- model login-->
         <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -104,7 +58,7 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
-    
+
                         <h4 class="modal-title" id="myModalLabel">欢迎新用户注册</h4>
                     </div>
                     <div class="modal-body">
@@ -122,21 +76,16 @@
                 </div>
             </div>
         </div>
-    
-        <footer>
-            <div class="container-fulid">
-                <div class="container">
-                    <h4 class="text-center">网站由 nds 和 hzCat 共同编写,谢谢使用</h4>
-                </div>
-            </div>
-        </footer>
+        <Footer></Footer>
+        
     </div>
 </template>
 
 <script>
-
+import Header from '../header/index'
+import Footer from '../footer/index'
 export default {
-
+    components:{Header,Footer}
 }
 
 
