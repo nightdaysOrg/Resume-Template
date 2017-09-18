@@ -3,8 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import ElementUI from 'element-ui'
 
 Vue.config.productionTip = false
+
+import '../node_modules/element-ui/lib/theme-default/index.css'
+
+Vue.use(ElementUI)
 
 import '../theme/bootstrap/bootstrap-theme.min.css';
 import '../theme/bootstrap/bootstrap.min.css';

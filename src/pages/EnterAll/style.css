@@ -1,0 +1,55 @@
+.template-container .bg-img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1000;
+  background: url('../../assets/img/enter-bg.jpg') 0 -100px;
+}
+.template-container .el-menu-demo {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.7);
+}
+.template-container .my-logo {
+  position: absolute;
+  left: 0px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.template-container .my-logo img {
+  height: 60px;
+  border-radius: 50%;
+}
+.template-container .el-menu {
+  z-index: 500;
+}
+.template-container .enter-main {
+  margin: 100px 0px;
+}
+.template-container .enter-main .el-carousel__container {
+  height: 400px !important;
+}
+.template-container .enter-main .el-carousel__item h3 {
+  color: #475669;
+  font-size: 14px;
+  opacity: 0.75;
+  margin: 0;
+  line-height: 370px;
+}
+.template-container .enter-main .el-carousel__item {
+  height: 370px;
+  display: flex;
+}
+.template-container .enter-main .el-carousel__item:nth-child(2n) {
+  background-color: #99a9bf;
+}
+.template-container .enter-main .el-carousel__item:nth-child(2n+1) {
+  background-color: #d3dce6;
+}

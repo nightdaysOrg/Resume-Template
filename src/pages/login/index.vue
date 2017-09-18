@@ -1,7 +1,6 @@
-
 <template>
     <div>
-        <Header></Header>  
+        <myHeader></myHeader>  
         <div class="container" id="main">
             <div class="row">
                 <div class="col-md-5 col-md-offset-1 visible-lg-block visible-md-block " id="notice-left">
@@ -76,16 +75,16 @@
                 </div>
             </div>
         </div>
-        <Footer></Footer>
+        <myFooter></myFooter>
         
     </div>
 </template>
 
 <script>
-import Header from '../header/index'
-import Footer from '../footer/index'
+import myHeader from '../template-header/index'
+import myFooter from '../template-footer/index'
 export default {
-    components:{Header,Footer}
+    components:{myHeader,myFooter}
 }
 
 
