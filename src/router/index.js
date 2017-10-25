@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Login from '@/pages/login/index.vue'
 import template1 from '@/pages/templates/template1/index.vue'
 import EnterAll from '@/pages/EnterAll/index.vue'
+import myself from '@/pages/myself/index.vue'
 
 Vue.use(Router)
 
@@ -20,6 +21,9 @@ export default new Router({
     },{
       path:'/enterall',
       component:EnterAll
+    },{
+      path:'/myself',
+      component:myself
     }
   ]
 })

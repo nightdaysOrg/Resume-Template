@@ -10,6 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "animate.css": "^3.5.2",
     "ansi-styles": "^3.2.0",
     "bootstrap": "^3.3.7",
     "color-convert": "^1.9.0",

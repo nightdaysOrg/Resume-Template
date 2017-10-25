@@ -4,6 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import ElementUI from 'element-ui'
+import animate from 'animate.css'
 
 Vue.config.productionTip = false
 
@@ -13,6 +14,7 @@ Vue.use(ElementUI)
 
 import '../theme/bootstrap/bootstrap-theme.min.css';
 import '../theme/bootstrap/bootstrap.min.css';
+import '../theme/reset.css'
 
 /* eslint-disable no-new */
 new Vue({
