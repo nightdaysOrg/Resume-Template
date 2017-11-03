@@ -9,6 +9,7 @@
 </template>
 
 <script>
+import './style.css'
 export default {
   
 }

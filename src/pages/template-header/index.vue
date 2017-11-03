@@ -27,7 +27,7 @@
                                 <li>
                                     <a href="#">查看模板</a>
                                 </li>
-                                <li class="dropdown">
+                                <!-- <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">登录/注册
                                         <span class="caret"></span>
                                     </a>
@@ -39,7 +39,7 @@
                                             <a href="#" data-toggle="modal" data-target="#sign-in" class="btn btn-warning">注册</a>
                                         </li>
                                     </ul>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                         <!-- /.navbar-collapse -->
@@ -53,6 +53,7 @@
 
 
 <script>
+import './style.css'
 export default {
   
 }
